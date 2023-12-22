@@ -1,0 +1,20 @@
+sort=-time
+max-visible=2
+font=CaskaydiaCove Nerd Font 10
+#background-color=#000000
+width=350
+height=300
+padding=8
+icons=1
+border-size=0
+border-radius=5
+margin=5
+anchor=top-center
+text-alignment=center
+#text-color=#f8f7f2
+default-timeout=25000
+icons=1
+icon-path=/usr/share/icons/Papirus-Dark
+
+#[urgency=high]
+#text-color=#79241f

@@ -1,0 +1,53 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 50, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 5, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": ["hyprland/workspaces", "hyprland/language"],
+    // "modules-center": ["hyprland/window"],
+    "modules-right": ["wireplumber", "temperature", "tray", "clock"],
+    "hyprland/workspaces": {
+	"format": "{icon}",
+        "active-only": true,
+	"format-icons": {
+	    "1": "one",
+	    "2": "two",
+	    "3": "three",
+	    "4": "four",
+	    "5": "five",
+	    "6": "six",
+	    "7": "seven",
+	    "8": "eight",
+	    "9": "nine"
+	}
+    },
+    "wireplumber": {
+        "format-muted": "mute",
+	"format": "{volume}%"
+    },
+    "hyprland/window": {
+        "format": "{title}",
+	"rewrite": {
+	    "(.*) — Mozilla Firefox": "$1"
+	}
+    },
+    "temperature": {
+        "format": "cpu: {temperatureC}°C"
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "hyprland/language": {
+    	"format": "{}",
+	"format-en": "US",
+	"format-it": "IT"
+    }
+}

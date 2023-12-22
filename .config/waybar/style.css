@@ -1,0 +1,66 @@
+@import url("/home/giuji/.cache/wal/waybar-wal.css");
+
+* { 
+   all: initial;
+   font-size: 13;
+   font-weight: bolder;
+   font-family: CaskaydiaCove Nerd Font;
+   color: @foreground;
+}
+
+window#waybar {
+    background-color: transparent;
+}
+
+window#waybar > box {
+    background-color: @background;
+    margin-top: 5px;
+    box-shadow: -4px 0 3px 0 @background;
+}
+
+#workspaces {
+  margin: 5px 5px 5px 10px;
+}
+
+#language {
+    margin: 5px 5px 5px 0;
+    font-weight: normal;
+    color: @walColors4;
+}
+
+#clock {
+    margin: 10px;
+
+}
+
+#temperature {
+    margin: 10px 0 10px 10px;
+    font-weight: normal;
+
+}
+
+#wireplumber {
+    margin: 10px 0 10px 10px;
+    color: @walColors2;
+
+} 
+
+#wireplumber.muted {
+    background-color: #222222;
+}
+
+#tray {
+    margin: 10px 0 10px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: normal;
+    background: #222222; 
+}
+
+#tray menu {
+    font-weight: normal;
+    padding: 8px;
+    background: @background;
+    border-radius: 5px;
+    margin: 5px;
+}

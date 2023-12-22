@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+
+pkexec systemd-nspawn --machine=uby --property=DeviceAllow='char-drm rw' -a --user=gaming lutris

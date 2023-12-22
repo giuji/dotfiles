@@ -1,0 +1,4 @@
+#!/usr/bin/fish
+
+walColors
+mako --config ~/.config/mako/config --background-color $walColors7 --text-color $walColors0

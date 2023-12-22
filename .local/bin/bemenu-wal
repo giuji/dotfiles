@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+walColors
+bemenu-run -b -p "run..." -i -H 45 --fn "CaskaydiaCove Nerd Font 10"  --tb $walColors0 --fb $walColors0 --nb $walColors0 --hb $walColors0 --sb $walColors0 --ab $walColors0 --tf $walColors1 --ff $walColors15 --nf $walColors15 --hf $walColors1 --sf $walColors15 --af $walColors15 --cf $walColors0 --cb $walColors0
