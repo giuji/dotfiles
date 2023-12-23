@@ -10,4 +10,4 @@ function fish_prompt
   echo -n (set_color green) (prompt_pwd)(set_color normal) '> '
 end
 
-fish_add_path -a /home/giuji/.local/bin/
+fish_add_path -a ~/.local/bin/ ~/.local/appimage
